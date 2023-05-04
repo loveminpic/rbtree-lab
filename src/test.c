@@ -17,6 +17,12 @@ void main() {
     printf("%d\n", a);
     int b = 345;
     const int* pa = &a; // pa가 가리키는 변수의 값을 바꾸지마라, 즉 pa 에 할당된 a 의 값을 바꾸지마!
-    pa = &b;            // 가능
-    int* const pa = &a; //
+    pa = &b;            // pa = &b; 가능, *pa = 3; 불가능.
+    int* const pa = &a; // pa = &b; 불가능, *pa = 3; 가능.
+
+
+    int c;
+    int* pa;
+    pa = &a;
+    
 }
