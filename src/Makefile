@@ -2,7 +2,11 @@
 
 CFLAGS=-Wall -g
 
-driver: driver.o rbtree.o
+test : test.o
+	gcc -o test test.o
+
+test.o : test.c
+	gcc -c -o test.o test.c
 
 clean:
 	rm -f driver *.o

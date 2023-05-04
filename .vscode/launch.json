@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/ubuntu/minpic/rbtree-lab/src",
-      "program": "/home/ubuntu/minpic/rbtree-lab/src/build/Debug/outDebug",
+      "cwd": "/home/ubuntu/minpic/rbtree-lab",
+      "program": "/home/ubuntu/minpic/rbtree-lab/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
